@@ -1,0 +1,14 @@
+vocab_size: 9500
+embedding_units: 256
+kernel_sizes: [2, 3, 4]
+num_filters: 256
+num_classes: 2
+dropout: 0.0
+learning_rate: 0.0002
+smoothing_prob: 0.1
+train_dir: dataset/amazon_review/train
+model_dir: /path/to/model
+result_dir: /path/to/result
+use_review: True
+base_epochs: 15
+finetune_epochs: 5
