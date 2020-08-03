@@ -1,0 +1,14 @@
+attribute: cpu
+embedding_units: 256
+kernel_sizes: [2, 3, 4]
+num_filters: 256
+dropout: 0.5
+learning_rate: 0.002
+smoothing_prob: 0.0
+train_dir: dataset/amazon_review/train_aug
+model_dir: output/model
+result_dir: output/result
+use_review: True
+use_glove: False
+base_epochs: 10
+finetune_epochs: 5
