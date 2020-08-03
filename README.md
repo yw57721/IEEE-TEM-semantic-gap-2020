@@ -2,4 +2,5 @@
 1. Dependency: Tensorflow 2.1 (Python >= 3.5)
 2. The train data are stored at dataset/train
 3. The model config file is conf/textcnn.yml
-4. Run python3 -m train_textcnn 
+4. Run python3 -m train_textcnn
+5. For data augmentation, run python3 -m train_textcnn_aug
